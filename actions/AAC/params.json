@@ -1,0 +1,31 @@
+{
+    "category": "data (things)",
+    "display": "Generate a random number",
+    "fields": {
+        "AAD": {
+            "caption": "Minimum number",
+            "default_val": 1,
+            "editor": "DynamicValue",
+            "name": "minimum_number",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAE": {
+            "caption": "Maximum number",
+            "default_val": 1000,
+            "editor": "DynamicValue",
+            "name": "maximum_number",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAF": {
+            "caption": "Number",
+            "name": "number",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}

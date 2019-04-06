@@ -1,0 +1,43 @@
+{
+    "category": "data (things)",
+    "display": "Generate a list of random numbers",
+    "fields": {
+        "AAH": {
+            "caption": "Minimum number",
+            "default_val": 1,
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "minimum_number",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Maximum number",
+            "default_val": 1,
+            "editor": "DynamicValue",
+            "name": "maximum_number",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "Amount of numbers to be returned",
+            "default_val": 10,
+            "doc": "This tells us the amount of numbers we need to return",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "amount_of_numbers_to_be_returned",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "Numbers",
+            "is_list": true,
+            "name": "numbers",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}
